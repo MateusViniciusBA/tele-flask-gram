@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY ./requirements.txt /app/requirements.txt
 
-RUN pip install --upgrade wheel setuptools pip && pip install -r requirements.txt
+RUN sudo pip install --upgrade wheel setuptools pip && sudo pip install -r requirements.txt
 
 COPY . /app
 

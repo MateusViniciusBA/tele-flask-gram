@@ -4,7 +4,7 @@ class Config:
     SECRET_KEY = 'secret'
     SQLALCHEMY_DATABASE_URI = ''
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    BOT_TOKEN = '5372356992:AAFRe16dnNsEySkAEhTUyK6SNyHlDu2J6Eg'
+    BOT_TOKEN = '5575858318:AAF3RdlwD61U9C5oXgec1TBYYx5Qa0bAdc4'
     
 class DebugConfig(Config):
     DEBUG = True
